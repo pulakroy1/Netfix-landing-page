@@ -1,0 +1,86 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background: #000;   
+}
+#netfix{
+    background: #000;
+    height: auto;
+}
+.netfix-top h1{
+    color: red;
+    text-shadow: 2px 2px #ff0000;
+    padding-top: 10px;
+}
+.netfix-top h2{
+    color: #ffff;
+    text-transform: uppercase;
+}
+#netfix form{
+    padding: 15px 0;
+}
+input#email {
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+    background: #E5E5E5;
+    padding: 10px;
+}
+
+/* little description */
+.little-description h4{
+    color: #ffff;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.little-description h4::after {
+    content: "";
+    display: block;
+    height: 5px;
+    background: #2ECC70;
+    max-width: 100%;
+    margin: 10px 0;
+   
+}
+
+
+/* for modal */
+.modal-header h5{
+    margin-left: 150px;
+}
+.simple-text p{
+    color: aliceblue;
+    display: block;
+    background: #AAAAAA;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.simple-text p:hover{
+    background-color: #2ECC70;
+}
+.design{
+    background: #30A531;
+}
+input.form-control {
+    border-radius: 15px;
+    background: #39CA3D;
+}
+a.btn.btn-primar {
+    display: block;
+    background-color: #C61F17;
+    color: #fff;
+    border-radius: 5px solid #C61F17;
+}
+button.btn.btn-success {
+    text-align: center;
+    margin: 20px;
+    padding: 17px;
+    background: #AAAAAA;
+}
+button.btn.btn-success:hover{
+    background: #39CA3D; 
+}
